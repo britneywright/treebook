@@ -1,4 +1,7 @@
 Treebrook::Application.routes.draw do
+
+  root to: 'statuses#index'
+
   devise_for :users
 
   devise_scope :user do
@@ -9,7 +12,6 @@ Treebrook::Application.routes.draw do
     
   resources :statuses
     get 'feed', to: 'statuses#index', as: :feed
-  root :to => 'statuses#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
