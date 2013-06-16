@@ -1,5 +1,7 @@
 Treebrook::Application.routes.draw do
 
+  get "profiles/show"
+
   root to: 'statuses#index'
 
   devise_for :users
