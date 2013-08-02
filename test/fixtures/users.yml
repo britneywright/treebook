@@ -1,5 +1,11 @@
-britneyw:
+britney:
  first_name: "Britney"
  last_name: "Wright"
  email: "britney@britneywright.com"
  profile_name: "britneyw"
+
+jane:
+ first_name: "Jane"
+ last_name: "Dog"
+ email: "blw06g@gmail.com"
+ profile_name: "janedog" 
