@@ -2,12 +2,6 @@
 
 one:
   content: MyText
-  user: britney
 
 two:
   content: MyText
-  user: britney
-
- three:
-  content: MyText
-  user: jdog
