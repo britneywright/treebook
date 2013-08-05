@@ -9,6 +9,10 @@ gem 'devise'
 gem 'simple_form'
 gem 'twitter-bootstrap-rails'
 
+group :test do
+	gem 'shoulda'
+end
+	
 group :development, :test do
 		gem 'sqlite3'
 end
